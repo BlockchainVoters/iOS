@@ -7,124 +7,253 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56A224976F1C49FA8AA0331E4FD7DA55 /* Pods-Ropsten-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F51E893B7793C80175BBC9A41E634CB /* Pods-Ropsten-dummy.m */; };
+		0FAB1F32BDCB569B90B369A64D99AA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		16CD82D7115EB2B86830704BCEB99732 /* Pods-Ropsten-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57399988AD4E748B00F90B7C60FB925A /* Pods-Ropsten-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17F1725D1360473116916DED49E78661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		319598ED384266EA18E6FCB7D2D104F7 /* JASON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEEFD29FFBE8D0F8778A4DFCE49B573 /* JASON-dummy.m */; };
+		4BA1081587882A092BA4916A6377BE10 /* Pods-Ropsten-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 787A37412167DA1DC5BD82368DC1E18D /* Pods-Ropsten-dummy.m */; };
+		4F965940518714A525E9AC4B7965B8B9 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F4FC1E1B55F24DC7BC01ED2E6258D /* Properties.swift */; };
+		5F8C5CEB9D8540D0CAD00EADA6B0428C /* SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8AA560F9547844BC8357ADEFA5B7A8 /* SequenceType.swift */; };
+		72FB33E87CF998AB483B54A8C3BDE673 /* LiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161DA274B51D2F577F4F4ACA7B660FD5 /* LiteralConvertible.swift */; };
+		B87D5D7681FC43A2DEE4EF30902B05D0 /* JASON.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D452D9CD9BB37087E1BCCE086CBA05 /* JASON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B958ED3C41C4D1BCF7C0AD8E626BCBA9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1332FF6DA5AA09BDC33249A27CB36 /* JSON.swift */; };
+		C58A6F690795CFD01E999788486A6495 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69673088EE0A8322F721765677958CFD /* Utilities.swift */; };
+		D8E6E55C3B100513A643F7084D8822F5 /* JSONKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA244A959439D1DACF2D98281667DCC /* JSONKey.swift */; };
+		E6E5B6426A771D90EFD6ABE35B80ACD5 /* JASON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1479BEFC58F25B52D86E92DD63B3640 /* JASON-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F1C4B0C5C379BE36E104A4138EC9C8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7560147870900FAB3EF83234271BBFB8;
+			remoteInfo = JASON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		281879059D8B2383416C63A9D64423B8 /* Pods-Ropsten-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ropsten-resources.sh"; sourceTree = "<group>"; };
-		3C84CAA91CB7E29CBB699986A7FED6CE /* Pods-Ropsten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ropsten.debug.xcconfig"; sourceTree = "<group>"; };
-		4C6107EC33616CF150DE3866D533CE60 /* libPods-Ropsten.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Ropsten.a"; path = "libPods-Ropsten.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B4B7ED70A32897EA200FF38AFBA5EE /* Pods-Ropsten-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ropsten-frameworks.sh"; sourceTree = "<group>"; };
-		6952C6794C4A98D0395C3D33543C9219 /* Pods-Ropsten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ropsten.release.xcconfig"; sourceTree = "<group>"; };
-		7F51E893B7793C80175BBC9A41E634CB /* Pods-Ropsten-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ropsten-dummy.m"; sourceTree = "<group>"; };
+		08AC83DFD1A94AF1731CF1216300B03E /* Pods-Ropsten-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ropsten-frameworks.sh"; sourceTree = "<group>"; };
+		161DA274B51D2F577F4F4ACA7B660FD5 /* LiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiteralConvertible.swift; path = Source/LiteralConvertible.swift; sourceTree = "<group>"; };
+		18563C0F4FD59FBABA74D940FE182FC5 /* JASON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = JASON.modulemap; path = ../../Headers/Public/JASON/JASON.modulemap; sourceTree = "<group>"; };
+		215F4FC1E1B55F24DC7BC01ED2E6258D /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
+		36765CBEC954929106D252976BFC646F /* Pods-Ropsten-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ropsten-resources.sh"; sourceTree = "<group>"; };
+		424F354F165E08A810874083674B085B /* Pods-Ropsten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ropsten.release.xcconfig"; sourceTree = "<group>"; };
+		4E6D6D205EA0E2745140169810D20BA3 /* Pods-Ropsten-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ropsten-acknowledgements.plist"; sourceTree = "<group>"; };
+		57399988AD4E748B00F90B7C60FB925A /* Pods-Ropsten-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ropsten-umbrella.h"; sourceTree = "<group>"; };
+		59B081EB7F27F0BDE1C3F9F67F888083 /* libJASON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJASON.a; path = libJASON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D452D9CD9BB37087E1BCCE086CBA05 /* JASON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JASON.h; path = "Source/Supporting Files/JASON.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69673088EE0A8322F721765677958CFD /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "Source/Supporting Files/Utilities.swift"; sourceTree = "<group>"; };
+		6D1BDA24BC457DFA22DDF86285A3BE5F /* JASON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JASON.xcconfig; sourceTree = "<group>"; };
+		787A37412167DA1DC5BD82368DC1E18D /* Pods-Ropsten-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ropsten-dummy.m"; sourceTree = "<group>"; };
+		7BA244A959439D1DACF2D98281667DCC /* JSONKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONKey.swift; path = Source/JSONKey.swift; sourceTree = "<group>"; };
+		7C8AA560F9547844BC8357ADEFA5B7A8 /* SequenceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SequenceType.swift; path = Source/SequenceType.swift; sourceTree = "<group>"; };
+		7FEEFD29FFBE8D0F8778A4DFCE49B573 /* JASON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JASON-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7EE5938557FA8AE6B4F948C6734EF59 /* Pods-Ropsten-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ropsten-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DC69BA2149C6734E0E8D5767F1A47B87 /* Geth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Geth.framework; path = Frameworks/Geth.framework; sourceTree = "<group>"; };
-		DCD8FBE9651AC2D55DC590C560CEBE59 /* Pods-Ropsten-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ropsten-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1479BEFC58F25B52D86E92DD63B3640 /* JASON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JASON-umbrella.h"; path = "../../Headers/Public/JASON/JASON-umbrella.h"; sourceTree = "<group>"; };
+		A600A1316135FCB56382DAB30D1266CF /* Pods-Ropsten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ropsten.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB1332FF6DA5AA09BDC33249A27CB36 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Source/JSON.swift; sourceTree = "<group>"; };
+		B55C50D83D464683E9C3875E679F96F7 /* Pods-Ropsten-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ropsten-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8C674AD0FFD6CE8061EB14A04B4BB8A /* Geth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Geth.framework; path = Frameworks/Geth.framework; sourceTree = "<group>"; };
+		F4E48B61D762AE8139709400DF3FB111 /* libPods-Ropsten.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Ropsten.a"; path = "libPods-Ropsten.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6502DF6216B73AF7D91FE431A746BC3 /* Pods-Ropsten.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ropsten.modulemap"; sourceTree = "<group>"; };
+		FA191A0925DF0C16F258A0452BA3E940 /* JASON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JASON-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		162F779D6546B943CA2341F41073F9E6 /* Frameworks */ = {
+		019780D6312E129377C827C2F4E49ACC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FAB1F32BDCB569B90B369A64D99AA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D866C793F1C16D64B195CD6CAF3E7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F1725D1360473116916DED49E78661 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EAD7637CDD1E8957E2388141EBFD4A4 /* Frameworks */ = {
+		38FF57E07428EF642469040C5A40134B /* Pods-Ropsten */ = {
 			isa = PBXGroup;
 			children = (
-				DC69BA2149C6734E0E8D5767F1A47B87 /* Geth.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2F23A0DA8F8D0D3B94A96FFE2BF0B7B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EF1769E8B9009FA17E7E5E90158C8604 /* Geth */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3AB04F22F0AB8BC24700044A23AA7C4F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C6107EC33616CF150DE3866D533CE60 /* libPods-Ropsten.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		51D64BD3C0986D303C2E76808780CEC8 /* Pods-Ropsten */ = {
-			isa = PBXGroup;
-			children = (
-				B7EE5938557FA8AE6B4F948C6734EF59 /* Pods-Ropsten-acknowledgements.markdown */,
-				DCD8FBE9651AC2D55DC590C560CEBE59 /* Pods-Ropsten-acknowledgements.plist */,
-				7F51E893B7793C80175BBC9A41E634CB /* Pods-Ropsten-dummy.m */,
-				61B4B7ED70A32897EA200FF38AFBA5EE /* Pods-Ropsten-frameworks.sh */,
-				281879059D8B2383416C63A9D64423B8 /* Pods-Ropsten-resources.sh */,
-				3C84CAA91CB7E29CBB699986A7FED6CE /* Pods-Ropsten.debug.xcconfig */,
-				6952C6794C4A98D0395C3D33543C9219 /* Pods-Ropsten.release.xcconfig */,
+				F6502DF6216B73AF7D91FE431A746BC3 /* Pods-Ropsten.modulemap */,
+				B55C50D83D464683E9C3875E679F96F7 /* Pods-Ropsten-acknowledgements.markdown */,
+				4E6D6D205EA0E2745140169810D20BA3 /* Pods-Ropsten-acknowledgements.plist */,
+				787A37412167DA1DC5BD82368DC1E18D /* Pods-Ropsten-dummy.m */,
+				08AC83DFD1A94AF1731CF1216300B03E /* Pods-Ropsten-frameworks.sh */,
+				36765CBEC954929106D252976BFC646F /* Pods-Ropsten-resources.sh */,
+				57399988AD4E748B00F90B7C60FB925A /* Pods-Ropsten-umbrella.h */,
+				A600A1316135FCB56382DAB30D1266CF /* Pods-Ropsten.debug.xcconfig */,
+				424F354F165E08A810874083674B085B /* Pods-Ropsten.release.xcconfig */,
 			);
 			name = "Pods-Ropsten";
 			path = "Target Support Files/Pods-Ropsten";
 			sourceTree = "<group>";
 		};
-		73E63ABF1662DFA744ADD3245FAF5C45 /* Targets Support Files */ = {
+		43CD1E118AA34965D328E518887711F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51D64BD3C0986D303C2E76808780CEC8 /* Pods-Ropsten */,
+				59B081EB7F27F0BDE1C3F9F67F888083 /* libJASON.a */,
+				F4E48B61D762AE8139709400DF3FB111 /* libPods-Ropsten.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60A2271EAAFD95E03269DC12DB8C2C2E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38FF57E07428EF642469040C5A40134B /* Pods-Ropsten */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69BB963310AE5E7C38DA5BE9AA8C7A2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C674AD0FFD6CE8061EB14A04B4BB8A /* Geth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				2F23A0DA8F8D0D3B94A96FFE2BF0B7B4 /* Pods */,
-				3AB04F22F0AB8BC24700044A23AA7C4F /* Products */,
-				73E63ABF1662DFA744ADD3245FAF5C45 /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEE3576BF6C449BC73308806BB7E0262 /* Pods */,
+				43CD1E118AA34965D328E518887711F3 /* Products */,
+				60A2271EAAFD95E03269DC12DB8C2C2E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		EF1769E8B9009FA17E7E5E90158C8604 /* Geth */ = {
+		839C579FBE1FCE244333085F26795844 /* JASON */ = {
 			isa = PBXGroup;
 			children = (
-				0EAD7637CDD1E8957E2388141EBFD4A4 /* Frameworks */,
+				59D452D9CD9BB37087E1BCCE086CBA05 /* JASON.h */,
+				ABB1332FF6DA5AA09BDC33249A27CB36 /* JSON.swift */,
+				7BA244A959439D1DACF2D98281667DCC /* JSONKey.swift */,
+				161DA274B51D2F577F4F4ACA7B660FD5 /* LiteralConvertible.swift */,
+				215F4FC1E1B55F24DC7BC01ED2E6258D /* Properties.swift */,
+				7C8AA560F9547844BC8357ADEFA5B7A8 /* SequenceType.swift */,
+				69673088EE0A8322F721765677958CFD /* Utilities.swift */,
+				9F84FDE473B3F9DEA537FD6773ACC4F6 /* Support Files */,
+			);
+			name = JASON;
+			path = JASON;
+			sourceTree = "<group>";
+		};
+		86E1BBFB30DB256074150F7FFC890880 /* Geth */ = {
+			isa = PBXGroup;
+			children = (
+				69BB963310AE5E7C38DA5BE9AA8C7A2B /* Frameworks */,
 			);
 			name = Geth;
 			path = Geth;
 			sourceTree = "<group>";
 		};
+		9F84FDE473B3F9DEA537FD6773ACC4F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18563C0F4FD59FBABA74D940FE182FC5 /* JASON.modulemap */,
+				6D1BDA24BC457DFA22DDF86285A3BE5F /* JASON.xcconfig */,
+				7FEEFD29FFBE8D0F8778A4DFCE49B573 /* JASON-dummy.m */,
+				FA191A0925DF0C16F258A0452BA3E940 /* JASON-prefix.pch */,
+				A1479BEFC58F25B52D86E92DD63B3640 /* JASON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JASON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE3576BF6C449BC73308806BB7E0262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E1BBFB30DB256074150F7FFC890880 /* Geth */,
+				839C579FBE1FCE244333085F26795844 /* JASON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		92D1EC3212D74F2EF57E948741771A90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E5B6426A771D90EFD6ABE35B80ACD5 /* JASON-umbrella.h in Headers */,
+				B87D5D7681FC43A2DEE4EF30902B05D0 /* JASON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD4F96F42B35AE4BE28B13F12B63D1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CD82D7115EB2B86830704BCEB99732 /* Pods-Ropsten-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		396A5BE154B8BC7383E7825FA5167A75 /* Pods-Ropsten */ = {
+		7560147870900FAB3EF83234271BBFB8 /* JASON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05151DFCCDD5A4E5B415B0800AAEC53F /* Build configuration list for PBXNativeTarget "Pods-Ropsten" */;
+			buildConfigurationList = 87F3D2A9001DC6AE33BC2EE80281F7AE /* Build configuration list for PBXNativeTarget "JASON" */;
 			buildPhases = (
-				C46178D2CE0B5FFF2F9CADB3109E1C26 /* Sources */,
-				162F779D6546B943CA2341F41073F9E6 /* Frameworks */,
+				5DC292A07063AEFC51E60EBC1344CD5F /* Sources */,
+				7D866C793F1C16D64B195CD6CAF3E7C7 /* Frameworks */,
+				92D1EC3212D74F2EF57E948741771A90 /* Headers */,
+				D8FEE5CFFB0B1BA6FD498C8456BFF671 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = JASON;
+			productName = JASON;
+			productReference = 59B081EB7F27F0BDE1C3F9F67F888083 /* libJASON.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC1CF676148718CE0822C56DB6DED100 /* Pods-Ropsten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCFD412187AD216AA4F5E8A7656D4DD /* Build configuration list for PBXNativeTarget "Pods-Ropsten" */;
+			buildPhases = (
+				A6D6B8A601FF7965AA3DBC351139797D /* Sources */,
+				019780D6312E129377C827C2F4E49ACC /* Frameworks */,
+				CCD4F96F42B35AE4BE28B13F12B63D1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9808674B3C58C44028B2CBF7EF178A2 /* PBXTargetDependency */,
+			);
 			name = "Pods-Ropsten";
 			productName = "Pods-Ropsten";
-			productReference = 4C6107EC33616CF150DE3866D533CE60 /* libPods-Ropsten.a */;
+			productReference = F4E48B61D762AE8139709400DF3FB111 /* libPods-Ropsten.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -144,30 +273,78 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3AB04F22F0AB8BC24700044A23AA7C4F /* Products */;
+			productRefGroup = 43CD1E118AA34965D328E518887711F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				396A5BE154B8BC7383E7825FA5167A75 /* Pods-Ropsten */,
+				7560147870900FAB3EF83234271BBFB8 /* JASON */,
+				CC1CF676148718CE0822C56DB6DED100 /* Pods-Ropsten */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D8FEE5CFFB0B1BA6FD498C8456BFF671 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/JASON/JASON.modulemap",
+				"${PODS_ROOT}/Headers/Public/JASON/JASON-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/JASON-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/JASON/JASON.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/JASON/JASON-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C46178D2CE0B5FFF2F9CADB3109E1C26 /* Sources */ = {
+		5DC292A07063AEFC51E60EBC1344CD5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56A224976F1C49FA8AA0331E4FD7DA55 /* Pods-Ropsten-dummy.m in Sources */,
+				319598ED384266EA18E6FCB7D2D104F7 /* JASON-dummy.m in Sources */,
+				B958ED3C41C4D1BCF7C0AD8E626BCBA9 /* JSON.swift in Sources */,
+				D8E6E55C3B100513A643F7084D8822F5 /* JSONKey.swift in Sources */,
+				72FB33E87CF998AB483B54A8C3BDE673 /* LiteralConvertible.swift in Sources */,
+				4F965940518714A525E9AC4B7965B8B9 /* Properties.swift in Sources */,
+				5F8C5CEB9D8540D0CAD00EADA6B0428C /* SequenceType.swift in Sources */,
+				C58A6F690795CFD01E999788486A6495 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D6B8A601FF7965AA3DBC351139797D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA1081587882A092BA4916A6377BE10 /* Pods-Ropsten-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F9808674B3C58C44028B2CBF7EF178A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JASON;
+			target = 7560147870900FAB3EF83234271BBFB8 /* JASON */;
+			targetProxy = F1C4B0C5C379BE36E104A4138EC9C8E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		4194456BB4D691CFF0C8F6309158B198 /* Debug */ = {
+		0EE9625B80B7C544762BCF33B3909544 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C84CAA91CB7E29CBB699986A7FED6CE /* Pods-Ropsten.debug.xcconfig */;
+			baseConfigurationReference = A600A1316135FCB56382DAB30D1266CF /* Pods-Ropsten.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -177,12 +354,41 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ropsten/Pods-Ropsten.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473674C44E9B3260F94B52435A1BC00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1BDA24BC457DFA22DDF86285A3BE5F /* JASON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JASON/JASON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/JASON/JASON.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JASON;
+				PRODUCT_NAME = JASON;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -308,9 +514,36 @@
 			};
 			name = Release;
 		};
-		C8DA9B9A8DC7723D0FF6D4166AE9EAD0 /* Release */ = {
+		DB85455E4CA42A2AA89B4449A9D409F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6952C6794C4A98D0395C3D33543C9219 /* Pods-Ropsten.release.xcconfig */;
+			baseConfigurationReference = 6D1BDA24BC457DFA22DDF86285A3BE5F /* JASON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JASON/JASON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/JASON/JASON.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JASON;
+				PRODUCT_NAME = JASON;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB8A214DAD679E6BF9ED7997A1F1D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424F354F165E08A810874083674B085B /* Pods-Ropsten.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -320,12 +553,14 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ropsten/Pods-Ropsten.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -334,20 +569,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05151DFCCDD5A4E5B415B0800AAEC53F /* Build configuration list for PBXNativeTarget "Pods-Ropsten" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4194456BB4D691CFF0C8F6309158B198 /* Debug */,
-				C8DA9B9A8DC7723D0FF6D4166AE9EAD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
 				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F3D2A9001DC6AE33BC2EE80281F7AE /* Build configuration list for PBXNativeTarget "JASON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473674C44E9B3260F94B52435A1BC00F /* Debug */,
+				DB85455E4CA42A2AA89B4449A9D409F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCFD412187AD216AA4F5E8A7656D4DD /* Build configuration list for PBXNativeTarget "Pods-Ropsten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE9625B80B7C544762BCF33B3909544 /* Debug */,
+				DEB8A214DAD679E6BF9ED7997A1F1D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

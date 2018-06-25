@@ -1,0 +1,6 @@
+module JASON [system] {
+  umbrella header "JASON-umbrella.h"
+
+  export *
+  module * { export * }
+}

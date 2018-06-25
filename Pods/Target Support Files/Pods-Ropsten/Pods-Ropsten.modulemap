@@ -1,0 +1,6 @@
+module Pods_Ropsten [system] {
+  umbrella header "Pods-Ropsten-umbrella.h"
+
+  export *
+  module * { export * }
+}

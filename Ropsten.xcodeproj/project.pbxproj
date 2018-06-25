@@ -14,8 +14,9 @@
 		E46B635320DDC46C00C8306C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46B635220DDC46C00C8306C /* Assets.xcassets */; };
 		E46B635620DDC46C00C8306C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46B635420DDC46C00C8306C /* LaunchScreen.storyboard */; };
 		E46B636120DDC46C00C8306C /* RopstenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636020DDC46C00C8306C /* RopstenTests.swift */; };
-		E46B636C20DDC89D00C8306C /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* AccountManager.swift */; };
-		E46B636D20DDC8A000C8306C /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* AccountManager.swift */; };
+		E46B636C20DDC89D00C8306C /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* BlockchainManager.swift */; };
+		E46B636D20DDC8A000C8306C /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* BlockchainManager.swift */; };
+		E4E8F09220E1AAE40018A0FE /* EthereumAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,8 @@
 		E46B635C20DDC46C00C8306C /* RopstenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RopstenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46B636020DDC46C00C8306C /* RopstenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopstenTests.swift; sourceTree = "<group>"; };
 		E46B636220DDC46C00C8306C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E46B636B20DDC89D00C8306C /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		E46B636B20DDC89D00C8306C /* BlockchainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainManager.swift; sourceTree = "<group>"; };
+		E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +106,14 @@
 		E46B634A20DDC46B00C8306C /* Ropsten */ = {
 			isa = PBXGroup;
 			children = (
+				E4E8F09020E1AACE0018A0FE /* Model */,
 				E46B634B20DDC46B00C8306C /* AppDelegate.swift */,
 				E46B634D20DDC46B00C8306C /* ViewController.swift */,
 				E46B634F20DDC46B00C8306C /* Main.storyboard */,
 				E46B635220DDC46C00C8306C /* Assets.xcassets */,
 				E46B635420DDC46C00C8306C /* LaunchScreen.storyboard */,
 				E46B635720DDC46C00C8306C /* Info.plist */,
-				E46B636B20DDC89D00C8306C /* AccountManager.swift */,
+				E46B636B20DDC89D00C8306C /* BlockchainManager.swift */,
 			);
 			path = Ropsten;
 			sourceTree = "<group>";
@@ -122,6 +125,14 @@
 				E46B636220DDC46C00C8306C /* Info.plist */,
 			);
 			path = RopstenTests;
+			sourceTree = "<group>";
+		};
+		E4E8F09020E1AACE0018A0FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E8F09220E1AAE40018A0FE /* EthereumAccount.swift in Sources */,
 				E46B634E20DDC46B00C8306C /* ViewController.swift in Sources */,
 				E46B634C20DDC46B00C8306C /* AppDelegate.swift in Sources */,
-				E46B636C20DDC89D00C8306C /* AccountManager.swift in Sources */,
+				E46B636C20DDC89D00C8306C /* BlockchainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46B636120DDC46C00C8306C /* RopstenTests.swift in Sources */,
-				E46B636D20DDC8A000C8306C /* AccountManager.swift in Sources */,
+				E46B636D20DDC8A000C8306C /* BlockchainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +425,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YBDF2UUEMG;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Ropsten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,7 +446,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YBDF2UUEMG;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Ropsten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

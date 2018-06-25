@@ -1,16 +1,20 @@
 PODS:
   - Geth (1.5.4)
+  - JASON (3.1)
 
 DEPENDENCIES:
   - Geth (= 1.5.4)
+  - JASON (~> 3.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Geth
+    - JASON
 
 SPEC CHECKSUMS:
   Geth: cec65936c094a569f5d13adab95d722e3acfee46
+  JASON: c1204b01c9979eef35b6948ca939aac5e7bef081
 
-PODFILE CHECKSUM: c7d7b3a49c6c09dd10028fd4d84f14028017be20
+PODFILE CHECKSUM: 1dc5a97ea192a84eee7a424cd6bbabb026f3664f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0
