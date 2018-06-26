@@ -17,6 +17,7 @@
 		E46B636C20DDC89D00C8306C /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* BlockchainManager.swift */; };
 		E46B636D20DDC8A000C8306C /* BlockchainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B636B20DDC89D00C8306C /* BlockchainManager.swift */; };
 		E4E8F09220E1AAE40018A0FE /* EthereumAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */; };
+		E4E8F09520E1CBCE0018A0FE /* BlockGethHeadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8F09420E1CBCE0018A0FE /* BlockGethHeadHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E46B636220DDC46C00C8306C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46B636B20DDC89D00C8306C /* BlockchainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainManager.swift; sourceTree = "<group>"; };
 		E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumAccount.swift; sourceTree = "<group>"; };
+		E4E8F09420E1CBCE0018A0FE /* BlockGethHeadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGethHeadHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		E46B634A20DDC46B00C8306C /* Ropsten */ = {
 			isa = PBXGroup;
 			children = (
+				E4E8F09320E1CB010018A0FE /* Conveniences */,
 				E4E8F09020E1AACE0018A0FE /* Model */,
 				E46B634B20DDC46B00C8306C /* AppDelegate.swift */,
 				E46B634D20DDC46B00C8306C /* ViewController.swift */,
@@ -133,6 +136,14 @@
 				E4E8F09120E1AAE40018A0FE /* EthereumAccount.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E4E8F09320E1CB010018A0FE /* Conveniences */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8F09420E1CBCE0018A0FE /* BlockGethHeadHandler.swift */,
+			);
+			path = Conveniences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E8F09220E1AAE40018A0FE /* EthereumAccount.swift in Sources */,
+				E4E8F09520E1CBCE0018A0FE /* BlockGethHeadHandler.swift in Sources */,
 				E46B634E20DDC46B00C8306C /* ViewController.swift in Sources */,
 				E46B634C20DDC46B00C8306C /* AppDelegate.swift in Sources */,
 				E46B636C20DDC89D00C8306C /* BlockchainManager.swift in Sources */,

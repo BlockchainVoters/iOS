@@ -104,4 +104,46 @@ class BlockchainManager {
             return nil
         }
     }
+
+    class func start_node() -> GEGethNode? {
+
+        var node: GEGethNode?
+
+        do {
+            if dataDir == nil {
+                let error = NSError(domain: NSCocoaErrorDomain, code: 404, userInfo: [NSLocalizedDescriptionKey : "The document directory couldn't be accessed. Try later."])
+                throw error
+            }
+            var err: NSError?
+            let n = GEGethNewNode(dataDir! + "/ethereum", GEGethNewNodeConfig(), &node, &err)
+            if !n || node == nil { throw err! }
+            print(#function, n)
+            try node!.start()
+            print(#function, node?.getInfo().getListenerAddress() ?? "")
+            return node
+        } catch {
+            print(#function, error.localizedDescription)
+            return nil
+        }
+    }
+
+    class func watch_node(node: GEGethNode) {
+
+        var client: GEGethEthereumClient?
+        var block: GEGethBlock?
+        let context = GEGethNewContext()
+        var subscription: GEGethSubscription?
+
+        do {
+            try node.getEthereumClient(&client)
+            try client?.getBlockByNumber(context, number: -1, ret0_: &block)
+            print(#function, "Latest block \(block?.getNumber() ?? -1)")
+
+            let handler = BlockGethHeadHandler()
+
+            try client?.subscribeNewHead(context, handler: handler, buffer: 16, ret0_: &subscription)
+        } catch {
+            print(#function, error.localizedDescription)
+        }
+    }
 }

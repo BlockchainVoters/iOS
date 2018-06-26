@@ -15,31 +15,11 @@ class ViewController: UIViewController {
 
         BlockchainManager.initialize()
 
-        let password = "qwerty1234567890"
-
-        guard let account = BlockchainManager.new_account(password: password)
-         , let data = BlockchainManager.exports_json(account: account, creationPassword: password, exportPassword: password) else {
+        guard let node = BlockchainManager.start_node() else {
             return
         }
-
-        print(#function, "Account information: " + account.getAddress().getHex())
-
-        switch BlockchainManager.manager {
-        case .file(let mng):
-            print(#function, mng.getAccounts().size())
-        case .failure(let err):
-            print(#function, err.localizedDescription)
-        }
-
-        let success = BlockchainManager.delete_account(account: account, password: password)
-
-        print(#function, "Account deletion success: \(success)")
-
-        guard let recovered = BlockchainManager.import_json(key: data, exportPassword: password, importPassword: password) else {
-            return
-        }
-
-        print(#function, "Recovered account: " + recovered.getAddress().getHex())
+        BlockchainManager.watch_node(node: node)
+        print(#function, node)
     }
 }
 
